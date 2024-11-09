@@ -5,10 +5,10 @@ from itertools import combinations
 from copy import deepcopy
 
 # Load datasets
-df_advised_courses = pd.read_csv('C:\\Users\\ispace\\Desktop\\GreedyTimetabling\\AdvisedCourses.csv')
-df_course_details = pd.read_csv('C:\\Users\\ispace\\Desktop\\GreedyTimetabling\\CourseDetails.csv')
-df_rooms = pd.read_csv('C:\\Users\\ispace\\Desktop\\GreedyTimetabling\\Rooms.csv')
-df_lecturer_prefs = pd.read_csv('C:\\Users\\ispace\\Desktop\\GreedyTimetabling\\LecturerPreferences.csv')
+df_advised_courses = pd.read_csv('AdvisedCourses.csv')
+df_course_details = pd.read_csv('CourseDetails.csv')
+df_rooms = pd.read_csv('Rooms.csv')
+df_lecturer_prefs = pd.read_csv('LecturerPreferences.csv')
 
 # Step 1: Preprocess and Create Mappings
 def load_and_preprocess_data():
